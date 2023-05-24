@@ -11,7 +11,8 @@ let li= document.createElement('li')
 li.innerHTML='guavo';
 document.getElementById('fruList').appendChild(li);
 
-li.innerHTML='Peanuts';
-document.getElementById('vegList').appendChild(li);
+let l1= document.createElement('l1')
+l1.innerHTML='Peanuts';
+document.getElementById('vegList').appendChild(l1);
 
 
